@@ -84,6 +84,8 @@ const sortBy = (temples) => {
   }
 };
 
+/* Event Listener */
+
 document.querySelector('#sortBy').addEventListener('change', (event) => {
   sortBy(event.target.value);
 });
@@ -91,4 +93,4 @@ document.querySelector('#sortBy').addEventListener('change', (event) => {
 
 getTemples();
 
-/* Event Listener */
+
