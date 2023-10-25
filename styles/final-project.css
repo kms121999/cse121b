@@ -1,0 +1,26 @@
+#b-add-note {
+  align-self: start;
+}
+
+.note-container {
+  border: 1px solid;
+  padding: 10px
+}
+
+.note-title, .note-title-input {
+  width: auto
+}
+
+.note-content, .note-content-input {
+  width: 300px;
+  height: 200px
+}
+
+.float {
+  align-self: start
+}
+
+#b-add-note {
+  margin-bottom: 15px;
+}
+
